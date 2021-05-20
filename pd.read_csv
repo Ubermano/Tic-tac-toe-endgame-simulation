@@ -1,0 +1,5 @@
+def graphDistribution(df, nGraphperColuom, nGraphPerRow):
+    nunique = df.nunique()
+     nRow, nCol = df.shape
+    columnNames = list(df)
+nGraphRow = (nCol + nGraphPerRow - 1) / nGraphPerRow
